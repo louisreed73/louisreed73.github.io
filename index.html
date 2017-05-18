@@ -311,7 +311,11 @@
 
 			if(tam<1100) {
 
+				if(alt===1) {
+
 				valorActual=-365;
+
+				
 
 				
 				TweenMax.set(izq,{left:valorActual});
@@ -321,7 +325,28 @@
 								TweenMax.to(barra3,1,{top:45,rotation:0});
 
 					
+				}
+
+				else {
+
+					valorActual=function(){
+						return (window.outerWidth/2)-182.5;
+					}();
+
 				
+
+				
+				TweenMax.set(izq,{left:valorActual});
+								TweenMax.set(activador,{visibility:"visible"});
+								
+
+				}
+
+				
+
+
+
+
 				
 				
 
@@ -338,6 +363,9 @@
 				TweenMax.set(activador,{visibility:"hidden"});
 				//TweenMax.to(barra1,1.5,{ease: Expo.easeOut,top:30});
 				//TweenMax.to(barra3,1.5,{ease: Expo.easeOut,top:30});
+
+
+
 			}
 
 
