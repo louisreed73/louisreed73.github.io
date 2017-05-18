@@ -54,6 +54,7 @@ div#pulsador {
   top: 0px;
   z-index: 100;
   visibility: hidden;
+  cursor:pointer;
   /* & div:nth-child(odd) {
   	top:25%;
   		}
