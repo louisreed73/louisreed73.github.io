@@ -393,7 +393,7 @@
 		/////////////////////
 		document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
-    TweenMax.to(carga,1,{opacity:0});
+    TweenMax.to(carga,1,{ease: Bounce.easeOut,top:"-100%"});
   });
 
 
