@@ -55,6 +55,17 @@ div#capaOverlay {
   opacity: 0;
   z-index: 3; }
 
+div#capaCarga {
+	background:pink;
+	position:fixed;
+	top:0px;
+	width:100%;
+	height:100%;
+	opacity:1;
+	z-index:10;
+
+}
+
 div#pulsador {
   width: 100px;
   height: 100px;
