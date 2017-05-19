@@ -400,10 +400,10 @@
 		document.addEventListener("DOMContentLoaded", function(event) {
     console.log("DOM fully loaded and parsed");
 			
-	setTimeout(delay,1000);		
+	setTimeout(delay,100);		
 		
 			function delay() {
-			TweenMax.to(carga,1.5,{ease: Bounce.easeOut,top:"-100%"});
+			TweenMax.to(carga,.5,{ease: Bounce.easeOut,top:"-100%"});
 			
 			}
 			
