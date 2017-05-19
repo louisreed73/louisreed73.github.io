@@ -11,7 +11,9 @@
 	<link rel="stylesheet" href="css/estilo.css">
 	<title>Document</title>
 </head>
-<body><div id="capaOverlay"></div>
+<body>
+	<div id="capaCarga"></div>
+	<div id="capaOverlay"></div>
 	<div id="pulsador">
 		<div class="barra"></div>
 		<div class="barra"></div>
@@ -258,6 +260,7 @@
 		
 		var izq=document.querySelector("#lateralIzq");
 		var capa=document.querySelector("#capaOverlay");
+		var carga=document.querySelector("#capaCarga");
 		var barra1=document.querySelector("#pulsador div:nth-child(1)");
 		var barra2=document.querySelector("#pulsador div:nth-child(2)");
 		var barra3=document.querySelector("#pulsador div:nth-child(3)");
@@ -385,6 +388,13 @@
 
 
 		}
+		
+		//////////////////////
+		/////////////////////
+		document.addEventListener("DOMContentLoaded", function(event) {
+    console.log("DOM fully loaded and parsed");
+    TweenMax.to(carga,1,{opacity:0});
+  });
 
 
 	}())//fin IIFE
