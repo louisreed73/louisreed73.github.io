@@ -127,15 +127,18 @@ div#textoPortada {
     transform: translate(-50%, -50%);
     min-width: 240px; }
   div#textoPortada div:first-child {
-    -webkit-animation: fadeIn 2s cubic-bezier(0.52, -0.16, 0.18, 0.99);
-    -moz-animation: fadeIn 2s cubic-bezier(0.52, -0.16, 0.18, 0.99);
-    -o-animation: fadeIn 2s cubic-bezier(0.52, -0.16, 0.18, 0.99);
-    animation: fadeIn 2s cubic-bezier(0.52, -0.16, 0.18, 0.99); }
+	  opacity:0;
+    -webkit-animation: fadeIn 2s 3s forwards cubic-bezier(0.52,-0.16, 0.18, 0.99);
+    -moz-animation: fadeIn 2s 3s forwards cubic-bezier(0.52,-0.16, 0.18, 0.99);
+    -o-animation: fadeIn 2s 3s forwards cubic-bezier(0.52,-0.16, 0.18, 0.99);
+    animation: fadeIn 2s 3s forwards cubic-bezier(0.52,-0.16, 0.18, 0.99); }
   div#textoPortada div.button {
-    -webkit-animation: fadeInB 2s;
-    -moz-animation: fadeInB 2s;
-    -o-animation: fadeInB 2s;
-    animation: fadeInB 2s; }
+	  opacity:0;
+    -webkit-animation: fadeInB 2s  3s forwards cubic-bezier(0.52,-0.16, 0.18, 0.99);
+    -moz-animation: fadeInB 2s  3s forwards cubic-bezier(0.52,-0.16, 0.18, 0.99);
+    -o-animation: fadeInB 2s  3s forwards cubic-bezier(0.52,-0.16, 0.18, 0.99);
+    animation: fadeInB 2s  3s forwards cubic-bezier(0.52,-0.16, 0.18, 0.99); }
+
   div#textoPortada h1, div#textoPortada h2 {
     margin: 0px;
     font-weight: bolder; }
