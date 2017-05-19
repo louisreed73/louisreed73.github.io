@@ -63,7 +63,8 @@ div#capaCarga {
 	height:100%;
 	opacity:1;
 	z-index:10;
-
+	 -webkit-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
+  	box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);
 }
 
 div#pulsador {
