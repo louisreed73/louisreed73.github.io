@@ -162,7 +162,7 @@ section#formacion, section#formacion2, section#formacion3, section#formacion4 {
   height: 50vmax;
   margin-top: 20px;
   background: linear-gradient(90deg, rgba(21, 86, 18, 0.65), #375e6f), url(../images/whirlpool.png) center/25%;
-  background-blend-mode: multiply;
+ 
   /* article:nth-child(3) {
     top: 0px;
   
