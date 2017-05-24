@@ -361,7 +361,10 @@
 
 	<script>
 		(function(){
-
+				
+			document.body.addEventListener("touchmove",function(e){
+				e.preventDefault();
+			});
 
 
 if(window.outerWidth>1200) {
