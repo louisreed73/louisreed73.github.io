@@ -71,9 +71,9 @@ section#intro {
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     top: 15%;
-    left: 30%; }
+    left: 44%; }
     section#intro article#Me h1 {
-      color: rgba(215, 115, 181, 0.4);
+      color: rgb(167, 177, 228);
       font-size: 3.9vmax;
       width: -webkit-fit-content;
       width: -moz-fit-content;
