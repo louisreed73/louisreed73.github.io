@@ -70,7 +70,7 @@ section#intro {
     -moz-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    top: 15%;
+    top: 12%;
     left: 44%; }
     section#intro article#Me h1 {
       color: rgb(167, 177, 228);
@@ -80,13 +80,13 @@ section#intro {
       width: fit-content; }
   section#intro article#About {
     position: absolute;
-    top: 50%;
+    
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    top: 59%;
+    top: 55%;
     width: 70%;
     max-width: 330px; }
     section#intro article#About p {
