@@ -231,7 +231,7 @@ section#formacion, section#formacion2, section#formacion3, section#formacion4 {
       transition-delay: 400ms; }
   .strip.hoverin {
     justify-content: flex-start;
-    padding-left: 0%; }
+    margin-left: -9%; }
     .strip.hoverin .content {
       font-size: 2.1vmin;
       opacity: 1;
@@ -246,7 +246,7 @@ section#formacion, section#formacion2, section#formacion3, section#formacion4 {
         transform: translateY(0);
         color: #ff6552;
         text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.58);
-        font-size: 3vmin; }
+        font-size: 0.9rem; }
       .strip.hoverin .content p, .strip.hoverin .content div.sample {
         transform: translateX(0); }
     #formacion .strip.hoverin.hoverin, #formacion2 .strip.hoverin.hoverin, #formacion4 .strip.hoverin.hoverin {
