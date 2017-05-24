@@ -233,7 +233,7 @@ section#formacion, section#formacion2, section#formacion3, section#formacion4 {
     justify-content: flex-start;
     margin-left: -9%; }
     .strip.hoverin .content {
-      font-size: 2.1vmin;
+      font-size: 0.9rem;
       opacity: 1;
       padding: 2em;
       transform: scale(1);
