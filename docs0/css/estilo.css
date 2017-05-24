@@ -239,7 +239,7 @@ section#formacion, section#formacion2, section#formacion3, section#formacion4 {
       padding: 2em;
       transform: scale(1);
       width: fit-content;
-      margin: 0 auto 200px; }
+      margin:-20px auto 200px;}        
       .strip.hoverin .content h1,
       .strip.hoverin .content p, .strip.hoverin .content div.sample {
         opacity: 1; }
