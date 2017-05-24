@@ -212,7 +212,8 @@ section#formacion, section#formacion2, section#formacion3, section#formacion4 {
     .strip div.sample img {
       max-width: 100%; }
   .strip p {
-    max-width: 100%; }
+    max-width: 100%;
+    min-width:150px; }
   .strip .plus, .strip .content {
     margin-bottom: 200px;
     font-size: 1.5rem; }
@@ -231,7 +232,7 @@ section#formacion, section#formacion2, section#formacion3, section#formacion4 {
       transition-delay: 400ms; }
   .strip.hoverin {
     justify-content: flex-start;
-    margin-left: -9%; }
+    margin-left: -10%; }
     .strip.hoverin .content {
       font-size: 0.9rem;
       opacity: 1;
