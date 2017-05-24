@@ -185,7 +185,7 @@ section#formacion, section#formacion2, section#formacion3, section#formacion4 {
   position: relative; }
   .flex_Centrado h2 {
     color: lightblue;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     white-space: nowrap;
     margin: 0px 5%; }
 
@@ -399,6 +399,11 @@ section#formacion, section#formacion2, section#formacion3, section#formacion4 {
       display: block;
       top: 77%;
       left: 32%; }
+  
+    .flex_Centrado h2 {
+   
+    font-size: 1.1rem;
+     }
 
   div#division {
     position: absolute;
