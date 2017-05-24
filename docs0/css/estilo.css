@@ -24,9 +24,7 @@ body {
   h1 {
   margin:15px 0 5px; }
 
-body,div {
--webkit-overflow-scrolling: touch;
-overflow-scrolling: touch;}
+
 
 section#intro {
   background: transparent;
