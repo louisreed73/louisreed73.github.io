@@ -1,0 +1,275 @@
+/*//@import url(../fonts/GT-Walsheim-Regular.woff)*/
+
+@font-face {
+  font-family: 'GTWalsheimRegular';
+  src:  url('../fonts/GT-Walsheim-Regular.woff') format('woff');
+}
+
+body {
+	background:red;
+	font-family:"GTWalsheimRegular";
+	color:white;
+}
+h1 {
+	width:80%;
+	margin:40px auto;
+    letter-spacing: 4px;
+}
+
+h2 {
+	width:80%;
+	margin:40px auto;
+	text-shadow: 2px 0px 0px #510e0e;
+}
+
+
+.container {
+	display: grid;
+	display:-ms-grid;
+	/*grid-template: repeat(11,auto) / repeat(1,1fr);*/
+	grid-template-columns:repeat(1,[col] 1fr);
+	grid-template-rows: repeat(11, [row] auto);
+
+	-ms-grid-columns: 1fr;
+  	-ms-grid-rows: auto auto auto auto auto auto auto auto auto auto auto;
+
+	-ms-grid-template-columns:repeat(1,[col] 1fr);
+	-ms-grid-template-rows: repeat(11, [row] auto);
+
+	margin:0px auto;
+	width:80%;
+	background:#dde2cb;
+	grid-auto-flow:column;
+	-ms-grid-auto-flow:column;
+	align-items:center;
+	grid-gap: 20px;
+	-ms-grid-gap: 20px;
+    padding: 20px;
+}
+
+img {
+	width:100%;
+	transition:all .3s;
+	display:block;
+}
+
+.container div:nth-of-type(1) {
+	
+	-ms-grid-column:1;
+	-ms-grid-row:1;
+
+}
+.container div:nth-of-type(2) {
+	-ms-grid-column:1;
+	-ms-grid-row:2;
+	
+}
+.container div:nth-of-type(3) {
+	-ms-grid-column:1;
+	-ms-grid-row:3;
+	
+}
+.container div:nth-of-type(4) {
+	-ms-grid-column:1;
+	-ms-grid-row:4;
+	
+}
+.container div:nth-of-type(5) {
+	-ms-grid-column:1;
+	-ms-grid-row:5;
+}
+	
+.container div:nth-of-type(6) {
+	-ms-grid-column:1;
+	-ms-grid-row:6;
+	
+}
+.container div:nth-of-type(7) {
+	-ms-grid-column:1;
+	-ms-grid-row:7;
+	
+}
+.container div:nth-of-type(8) {
+	-ms-grid-column:1;
+	-ms-grid-row:8;
+}
+.container div:nth-of-type(9) {
+	-ms-grid-column:1;
+	-ms-grid-row:9;
+}
+.container div:nth-of-type(10) {
+	-ms-grid-column:1;
+	-ms-grid-row:10;
+}
+.container div:nth-of-type(11) {
+	-ms-grid-column:1;
+	-ms-grid-row:11;
+}
+
+
+
+
+
+
+
+img:hover {
+    
+    box-shadow: 2px 3px 12px rgba(0,0,0,.5);
+    transform: scale(1.01);
+}
+
+
+@media (min-width:700px){
+
+.container {
+
+	
+	-ms-grid-template: repeat(5,auto) / repeat(2,1fr);
+	
+	
+	grid-template-columns:repeat(2,[col] 1fr);
+	grid-template-rows: repeat(5, [row] auto);
+
+	-ms-grid-columns: 1fr 1fr;
+  	-ms-grid-rows: auto auto auto auto auto;
+
+
+
+
+
+	}
+
+
+	.container div:nth-of-type(1) {
+	
+	-ms-grid-column:1;
+	-ms-grid-row:1;
+
+}
+.container div:nth-of-type(2) {
+	-ms-grid-column:1;
+	-ms-grid-row:2;
+	
+}
+.container div:nth-of-type(3) {
+	-ms-grid-column:1;
+	-ms-grid-row:3;
+	
+}
+.container div:nth-of-type(4) {
+	-ms-grid-column:1;
+	-ms-grid-row:4;
+	
+}
+.container div:nth-of-type(5) {
+	-ms-grid-column:1;
+	-ms-grid-row:5;
+}
+	
+.container div:nth-of-type(6) {
+	-ms-grid-column:2;
+	-ms-grid-row:1;
+	
+}
+.container div:nth-of-type(7) {
+	-ms-grid-column:2;
+	-ms-grid-row:2;
+	
+}
+.container div:nth-of-type(8) {
+	-ms-grid-column:2;
+	-ms-grid-row:3;
+}
+.container div:nth-of-type(9) {
+	-ms-grid-column:2;
+	-ms-grid-row:4;
+}
+.container div:nth-of-type(10) {
+	-ms-grid-column:2;
+	-ms-grid-row:5;
+}
+.container div:nth-of-type(11) {
+	-ms-grid-column:2;
+	-ms-grid-row:6;
+}
+
+
+
+}
+
+@media (min-width:1024px){
+
+.container {
+
+	
+	-ms-grid-template: repeat(4,auto) / repeat(3,1fr);
+	
+
+	grid-template-columns:repeat(3,[col] 1fr);
+	grid-template-rows: repeat(4, [row] auto);
+
+	-ms-grid-columns: 1fr 1fr 1fr;
+  	-ms-grid-rows: auto auto auto auto;
+	
+
+
+	}
+	.container div:nth-of-type(1) {
+	
+	-ms-grid-column:1;
+	-ms-grid-row:1;
+
+}
+.container div:nth-of-type(2) {
+	-ms-grid-column:1;
+	-ms-grid-row:2;
+	
+}
+.container div:nth-of-type(3) {
+	-ms-grid-column:1;
+	-ms-grid-row:3;
+	
+}
+.container div:nth-of-type(4) {
+	-ms-grid-column:1;
+	-ms-grid-row:4;
+	
+}
+.container div:nth-of-type(5) {
+	-ms-grid-column:2;
+	-ms-grid-row:1;
+}
+	
+.container div:nth-of-type(6) {
+	-ms-grid-column:2;
+	-ms-grid-row:2;
+	
+}
+.container div:nth-of-type(7) {
+	-ms-grid-column:2;
+	-ms-grid-row:3;
+	
+}
+.container div:nth-of-type(8) {
+	-ms-grid-column:2;
+	-ms-grid-row:4;
+}
+.container div:nth-of-type(9) {
+	-ms-grid-column:3;
+	-ms-grid-row:1;
+}
+.container div:nth-of-type(10) {
+	-ms-grid-column:3;
+	-ms-grid-row:2;
+}
+.container div:nth-of-type(11) {
+	-ms-grid-column:3;
+	-ms-grid-row:3;
+}
+
+
+
+}
+
+
+
