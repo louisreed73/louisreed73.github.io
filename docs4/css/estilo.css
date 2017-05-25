@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Ristretto';
+  src:  url('../fonts/RistrettoSlabPro-Regular.otf') format('opentype');
+}
+
+
+
+body {
+	font-family: 'Ristretto';
+	background:red;
+	font-size:32px;
+	color:white;
+	height:0;
+	margin:0;
+	padding:0;
+	height: 0;
+	width: 0;
+}
+
+.container {
+	background:lightblue;
+	transform:rotate(-90deg) translateY(-759px);
+	transform-origin:right top;
+	width:759px;
+	height:1400px;
+	overflow-y: auto;
+  overflow-x: hidden;
+  padding-top:759px;
+	
+
+}
+
+.container div {
+transform: rotate(90deg) translate(800px,800px);
+    transform-origin: right top;
+    width: 1500px;
+    height: 1500px;
+    padding: 30px;
+}
+
+.container div p {
+	width:30%;
+}
+
+
+.container div:nth-child(1) {
+	    background: url(../images/img1.jpg)no-repeat 0% -18% / 100%;
+}
+
+.container div:nth-child(2) {
+	    background: url(../images/img2.jpg)no-repeat 0% -18% / 100%;
+}
+
+.container div:nth-child(3) {
+	    background: url(../images/img3.jpg)no-repeat 0% -18% / 100%;
+}
+
+.container div:nth-child(4) {
+	    background: url(../images/img4.jpg)no-repeat 0% -18% / 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container div h2{
+	position: relative;
+    z-index: 100;
+}
+
+    
+
+.container div img {
+	transform: rotate(0deg) translate(-31px,-190px);
+    transform-origin: right top;
+    width: 207%;
+    /* height: auto; */
+}
+
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:700px) {
+
+}
+
+@media (min-width:1024px) {
+
+}
