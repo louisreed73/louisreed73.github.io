@@ -2010,7 +2010,7 @@ if(window.outerWidth>1100) {
 			var paraDebounce=_.debounce(mueve,50);
 			var paraDebounce2=_.debounce(raton,50);
 			var paraDebounce3=_.debounce(raton,50);
-			var paraDebounce4=_.debounce(mueve,50);
+			
 
 
 
@@ -2022,7 +2022,7 @@ if(window.outerWidth>1100) {
 			window.addEventListener("scroll",paraDebounce);
 			window.addEventListener("mousewheel",paraDebounce2);
 			window.addEventListener('DOMMouseScroll', paraDebounce3);
-			window.addEventListener('touchmove', paraDebounce4);
+			
 
 
 			document.addEventListener('webkitfullscreenchange',exitHandler, false);
@@ -2084,7 +2084,13 @@ var fullS=0;
 
 }//Fin if es mayor que 1100px.
 
+else {
 
+			window.removeEventListener("scroll",paraDebounce);
+			window.removeEventListener("mousewheel",paraDebounce2);
+			window.removeEventListener('DOMMouseScroll', paraDebounce3);
+
+}
 			
 
 
