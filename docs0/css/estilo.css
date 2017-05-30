@@ -767,38 +767,6 @@ a {
     left: 40%;
     transform: rotate(40deg); }
 
-/*    #contacto .datos:last-child div .capaCV {
-position: absolute;
-background: black;
-padding: 0px;
-opacity: 0.2;
-transition: all 1s;
-bottom: 0px;
-margin-left: -10px;
-transition:all 1s ease-in-out;
-}
-
-#contacto .datos:last-child div:hover div {
-mix-blend-mode: hue;
-opacity:1;
-cursor:pointer;
-} */
-/* #contacto .datos:last-child div .CV {
-
-  position: absolute;
-  top: 50%;
-  left: -15%;
-  margin: 0px;
-  transform: translate(-50%,-50%);
-  -webkit-filter: saturate(8);
-  filter: saturate(7);
-  z-index: 9;
-  color: #fdfeff;
-  transition:all 1s ease-in-out;
-} */
-/* #contacto .datos:last-child div:hover .CV {
-    left: 16%;
-} */
 /*/////////////////////////////*/
 /*/////////////////////////////*/
 /*/////////////////////////////*/
@@ -1000,23 +968,6 @@ cursor:pointer;
   svg[id=icon-mail] {
     margin-left: 32%; } }
 @media (min-width: 1200px) {
-  /*   .capaEnlace {
-    
-    transform: translate(25%, 100%) rotate(0deg);
-    transition:all .4s ease;
-    
-  
-  }
-  
-  
-  .flex_Centrado:hover .capaEnlace {
-  
-  
-      transform: translate(25%, 100%) rotate(-40deg);
-   
-  
-  
-  } */
   .name {
     font-size: 2.6rem; }
 
