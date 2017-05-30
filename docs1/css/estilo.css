@@ -26,14 +26,18 @@ main {
 }
 
 nav {
-	display:none;
-	background:black;
-	width:15%;
-	padding-top:60px;
-	 flex-flow: column;
+	    /* display: none; */
+    background: black;
+    width: 15%;
+    /* padding-top: 60px; */
+    flex-flow: column;
     justify-content: flex-start;
     align-items: center;
-    color:white;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    margin: 0;
+    top: 0px;
 	
 }
 
