@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url("../font/Quicksand-Regular.eot");
+  src: url("../font/Quicksand-Regular.eot?#iefix") format("embedded-opentype"), url("../font/Quicksand-Regular.woff") format("woff"), url("../font/Quicksand-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Cervo';
+  src: url("../font/Cervo-Regular.eot");
+  src: url("../font/Cervo-Regular.eot?#iefix") format("embedded-opentype"), url("../font/Cervo-Regular.woff") format("woff"), url("../font/Cervo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Cervo-Thin';
+  src: url("../font/Cervo-Thin.eot");
+  src: url("../font/Cervo-Thin.eot?#iefix") format("embedded-opentype"), url("../font/Cervo-Thin.woff") format("woff"), url("../font/Cervo-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal; }
 /* $backF:#e7daff;*/
 /* $backF:white;*/
 /*$basicMarginL:30px;*/
@@ -16,10 +34,14 @@ body, p {
 
 body {
   background: white;
-  font-family: "Titillium Web", sans-serif;
+  font-family: 'Quicksand';
   color: #7D7D7D;
   font-size: 0.9rem;
   color: white; }
+
+h1, h2 {
+  font-family: 'Cervo-Thin';
+  letter-spacing: 1px; }
 
 section#intro {
   background: transparent;
@@ -662,7 +684,7 @@ svg#mobile path, svg#mobile circle {
 .boxCT {
   width: 320px;
   height: 320px;
-  padding: 8%;
+  padding: 8vmin;
   box-sizing: border-box; }
 
 .boxCP {
@@ -873,7 +895,10 @@ a {
     transform: translate(-27px, -6%); }
 
   #contacto .datos:last-child div.desCV {
-    padding-bottom: 2.5vmin; } }
+    padding-bottom: 2.5vmin; }
+
+  .boxCT {
+    padding: 6vmin; } }
 @media (min-width: 1100px), (min-width: 1024px) and (orientation: landscape) {
   #contacto .datos:last-child div.desCV {
     padding-bottom: 6vmin; }
@@ -963,7 +988,7 @@ a {
     bottom: -18%; }
 
   .boxCT {
-    padding: 4%; }
+    padding: 6vmin; }
 
   svg[id=icon-mail] {
     margin-left: 32%; } }
