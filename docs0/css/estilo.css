@@ -37,7 +37,8 @@ body {
   font-family: 'Quicksand';
   color: #7D7D7D;
   font-size: 0.9rem;
-  color: white; }
+  color: white;
+-webkit-font-smoothing: antialiased;}
 
 h1, h2 {
   font-family: 'Cervo-Thin';
