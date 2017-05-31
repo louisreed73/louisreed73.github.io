@@ -38,7 +38,7 @@ body {
   color: #7D7D7D;
   font-size: 0.9rem;
   color: white;
--webkit-font-smoothing: antialiased;}
+  -webkit-font-smoothing: antialiased; }
 
 h1, h2 {
   font-family: 'Cervo-Thin';
@@ -356,10 +356,7 @@ section#formacion, section#formacion2, section#formacion3, section#formacion4 {
   section#formacion2 article:first-child h2 {
     width: -moz-fit-content;
     position: relative;
-    top: -20px; }
-    section#formacion2 article:first-child h2:not(:last-child) {
-    top: -20px;
-} }
+    top: -20px; } }
 #formacion3 div.marco {
   position: absolute;
   width: 100%;
