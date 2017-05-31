@@ -358,7 +358,7 @@ section#formacion, section#formacion2, section#formacion3, section#formacion4 {
     position: relative;
     top: -20px; }
     section#formacion2 article:first-child h2:not(:last-child) {
-       } }
+      top:inherit } }
 #formacion3 div.marco {
   position: absolute;
   width: 100%;
